@@ -1,0 +1,24 @@
+{
+  "name": "bamazon-mysql0-pckg",
+  "version": "1.0.0",
+  "description": "npm dependency package for bamazon cli app",
+  "main": "bamazonDB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyelton4/bamazon-mysql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyelton4/bamazon-mysql/issues"
+  },
+  "homepage": "https://github.com/jyelton4/bamazon-mysql#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^6.1.0",
+    "mysql": "^2.16.0"
+  }
+}
